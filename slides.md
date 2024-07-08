@@ -10,21 +10,10 @@ drawings:
 # transition: slide-left
 css: unocss
 colorSchema: 'light'
-title: .Net For Embedded Development
+title: Embedded Development With .Net
 ---
 
-# .Net For Embedded Development
-
----
-
-# Who Am I?
-
-## Matthew Shapiro
-
-* Senior Software Engineer at Microsoft
-* Works on high scale, real-time media systems.
-* Built open-source media libraries and servers.
-* Passionate about dev workflows and tooling.
+# Embedded Development With .Net
 
 ---
 
@@ -34,19 +23,52 @@ title: .Net For Embedded Development
 * Direct integration with hardware
 * Usually lower specs than you are used to
 * Single function systems
+* Real time systems
+
+<!-- 
+  * Assembly programming != embedded, OS still handles a lot for you (e.g. virtual memory locations) 
+  * Real time deadlines
+-->
 
 ---
+layout: two-cols
+---
 
-# Arduino and ESP32
+# Arduino
 
-* Arduiono originally created for teaching in 2005
+* Arduino originally created for teaching in 2005
 * Low cost and simple tooling stack
 * Mostly used in hobbyist space
 * Arduinos usually 16Mhz, 2KB RAM
+
+::right::
+![Arduino Board](/arduino.webp)
+
+---
+layout: two-cols
+---
+
+# ESP32
+
 * ESP32 arrived in 2016
 * ARM CPU 160Mhz+, 320KB+ RAM
 * Wifi/Bluetooth
 * Can be integrated easily in custom PCBs
+* 33 Input/Output Pins
+* Has several variants with different capabilities
+
+::right::
+<img src="/esp32_chip.jpg" style="max-height:40%">
+
+---
+
+# 8 and 16-Bit Microcontrollers
+
+* Can operate in the low double digit Mhz range
+* Lower complexity allows for better specialization of peripheral support
+* Extreme reliability
+* Very low power consumption
+* Used everywhere, from toys to cars to rockets.
 
 ---
 
@@ -83,6 +105,7 @@ title: .Net For Embedded Development
 
 * C / C++ are the gold standard
 * Python used with some chips
+* Typescript (Microsoft DeviceScript)
 
 ---
 
@@ -195,7 +218,7 @@ layout: two-cols
 layout: two-cols
 ---
 
-# Running Out of I/O Ports
+# Extra Functionality
 
 * What if we want more seven segment displays?
 * Peripherals to the rescue!
@@ -356,179 +379,17 @@ layout: two-cols
 layout: two-cols
 ---
 
-# Glade 
+# What Can You Do?
+
 &nbsp;
 
-&#128505; Game Loop <br />
-&#128505; Renderer <br />
-&#9746; Scene Graph <br />
-&#9744; Camera <br />
-&#9746; Animation <br />
-&#9746; Physics <br />
-&#9746; Input Manager <br />
-&#9744; Audio Engine <br />
-
-<br />
-&#128505; Exists today <br />
-&#9746; Partially implemented
+<img src="/thermostat.webp" style="max-height:300px" />
 
 ::right::
-![glade logo](/glade-logo.png)
-
-<img src="/glade-demo-1.png" style="max-height:200px" />
-
---- 
-
-# Use Cases
 &nbsp;
-
-<img src="/glade-use-cases.png" style="max-height:400px" />
-
----
-layout: two-cols
----
-
-# Examples 
-&nbsp;
-
-<video src="/glade-invade.mp4" autoplay loop style="max-height:400px"></video>
-
-::right::
-
-<br /><br /><br />
-<video src="/glade-platformer.mp4" autoplay loop style="max-height:400px"></video>
+<br><br><br>
+<img src="/arduino-remote-controlled-car.png" />
 
 ---
 
-# Space Invaders Demo
-&nbsp;
-
-<video src="/scoreboard-demo.mp4" autoplay loop style="max-height:400px"></video>
-
----
-layout: two-cols
----
-
-# API-First Design
-&nbsp;
-
-<img src="/composition.png" />
-
-::right::
-<img src="/scene-composition.png" />
-
----
-
-# Performance In The Beginning
-&nbsp;
-
-<video src="/lowfps.mp4" autoplay loop style="max-height:400px"></video>
-
---- 
-layout: two-cols
----
-
-# Profiling
-&nbsp;
-
-<img src="/profiling-example.png" style="max-height:400px" />
-
-::right::
-# &nbsp;
-&nbsp;
-
-<img src="/profiling-results.png" />
-
----
-
-# Initial Profiling Results
-
-<img src="/glade-performance-chart.png" />
-
----
-
-# Unexpected Casts
-
-<img src="/glade-unexpected-casts.png" />
-
----
-
-# Extra Logic In Getters
-
-<img src="/glade-hidden-logic.png" />
-
----
-
-# Cache Friendlyness
-
-<img src="/cache.png" style="height:400px" />
-
----
-
-# Generation 0 Garbage Collection
-
-<img src="/glade-gc.png" style="height:400px" />
-
----
-
-# More Efficient Sprite Drawing
-
-* Direct buffer management
-* Byte aligned pixels
-* Rotations at the end
-* Utilize Array.Copy()
-* Using pointers instead of array indexes
-  * 20% boost just from this!
-
----
-
-# What Now?
-
-<img src="/glade-scene.png" />
-
----
-
-# Layers
-
-<img src="/glade-layers.png" />
-
----
-
-# SPI Efficiency
-
-<img src="/glade-spi.png" style="height:450px" />
-
----
-
-# MCP Pin State Performance
-
-<img src="/glade-mcp.png" style="height:450px" />
-
----
-
-# Performance Today
-
-<img src="/glade-chart-2.png" />
-
----
-
-# Performance Today
-&nbsp;
-
-<video src="/nowfps.mp4" autoplay loop style="max-height:400px"></video>
-
----
-
-# Next Steps
-
-* SPI performance improvements
-* Partial screen updates possible
-* Hardware based scrolling
-
----
-
-# What About A GPU?
-
-<img src="/rp2040.jpg" style="height:450px" />
-
-
+# Thank You
