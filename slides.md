@@ -10,10 +10,10 @@ drawings:
 # transition: slide-left
 css: unocss
 colorSchema: 'light'
-title: Embedded Development With .Net
+title: Embedded Development 
 ---
 
-# Embedded Development With .Net
+# Embedded Development 
 
 ---
 
