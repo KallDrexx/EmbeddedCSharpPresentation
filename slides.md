@@ -376,6 +376,14 @@ layout: two-cols
 <img src="/e08code.png" />
 
 ---
+
+# What Can You Do?
+
+&nbsp;
+
+<video src="/rolling_game.mp4" type="video/mp4" autoplay loop style="max-height:400px" ></video>
+
+---
 layout: two-cols
 ---
 
