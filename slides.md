@@ -89,15 +89,49 @@ layout: two-cols
 
 ---
 
-# Beyond the Hobbyist
+# Wiring Things Up
 
 &nbsp;
 
 ![breadboard](/8bit-computer.jpg)
 
-<!--
-* Prototyped on breadboards, then usually integrated into PCBs
--->
+---
+
+# Schematics
+
+<img src="/microgpu_schematic.svg" style="max-height: 400px" />
+
+---
+layout: two-cols
+---
+
+# PCB Design
+
+<img src="/mgpu-wireframe.png" style="width: 90%" />
+
+::right::
+
+<br><br>
+<img src="/mgpu-render.png" style="width: 90%" />
+
+---
+
+# Physical PCBs
+
+<img src="/mgpu-pcbs.jpg" style="max-height: 400px" />
+
+---
+layout: two-cols
+---
+
+# Physical PCBs
+
+<img src="/mgpu-assembled.jpg" style="max-height: 400px" />
+
+::right::
+&nbsp;
+
+<video src="/mgpu-active.mp4" type="video/mp4" autoplay loop style="max-height: 400px"></video>
 
 ---
 
@@ -384,7 +418,11 @@ layout: two-cols
 <video src="/rolling_game.mp4" type="video/mp4" autoplay loop style="max-height:400px" ></video>
 
 ---
-layout: two-cols
+
+# What Can You Do?
+
+<img src="/defcon-badge.png" style="max-height:400px"/>
+
 ---
 
 # What Can You Do?
@@ -392,11 +430,6 @@ layout: two-cols
 &nbsp;
 
 <img src="/thermostat.webp" style="max-height:300px" />
-
-::right::
-&nbsp;
-<br><br><br>
-<img src="/arduino-remote-controlled-car.png" />
 
 ---
 
