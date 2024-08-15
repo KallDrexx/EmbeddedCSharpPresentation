@@ -135,10 +135,12 @@ layout: two-cols
 
 ---
 
-# Mainstream Embedded Programming Languages
+# Embedded Programming Languages
 
 * C / C++ are the gold standard
-* Python used with some chips
+* Rust
+* Python
+* C#
 * Typescript (Microsoft DeviceScript)
 
 ---
