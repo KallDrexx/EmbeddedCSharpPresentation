@@ -14,6 +14,7 @@ title: Embedded Development
 ---
 
 # Embedded Development 
+# In .Net
 
 ---
 
@@ -423,16 +424,22 @@ layout: two-cols
 
 # What Can You Do?
 
-<img src="/defcon-badge.png" style="max-height:400px"/>
+<img src="/robot.jpg" style="max-height:400px"/>
 
+---
+layout: two-cols
 ---
 
 # What Can You Do?
 
 &nbsp;
 
-<img src="/thermostat.webp" style="max-height:300px" />
+::right::
+<img src="/wastewater.jpg" style="max-height:500px" />
 
 ---
 
 # Thank You
+
+* https://github.com/KallDrexx
+* https://www.linkedin.com/in/mshapirodev
